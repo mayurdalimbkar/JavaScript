@@ -34,13 +34,13 @@ function loginuserMessage(username){
 }
 console.log(loginuserMessage("Mayur"))
 
-function studentResult(studentName){
-if(studentName === undefined){
-console.log("Please Enter Student Name to fetch the Result.");
-return
-}}
-return `Congratulations, ${studentName} you have passed this exam !`
-console.log((studentResult()));
+// function studentResult(studentName){
+// if(studentName === undefined){
+// console.log("Please Enter Student Name to fetch the Result.");
+// return
+// }}
+// return `Congratulations, ${studentName} you have passed this exam !`
+// console.log((studentResult("Mayur")))
 
 
 function findMyLocation(placeName){
@@ -60,3 +60,21 @@ function assetData(assetProvider){
 }
 
 console.log(assetData("Dell Technologies"));
+
+
+
+
+
+// returning objects inside function.
+
+const officeData = {
+    empName : "Mayur",
+    empID : 2288754,
+    email:"mayur.dalimbkar@tcs.com"
+}
+
+function handleObject(anyobject){
+    console.log(`Employee name is ${anyobject.empName}, and Emplyee ID is ${anyobject.empID}`)
+}
+
+console.log(handleObject(officeData));
