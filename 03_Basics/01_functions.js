@@ -78,3 +78,13 @@ function handleObject(anyobject){
 }
 
 console.log(handleObject(officeData));
+
+//returning array inside functions.
+
+const newArray = [1,2,3,4,5,6]
+
+function returnArray(arrayValue){
+    return arrayValue[4]
+}
+
+console.log(returnArray(newArray));
