@@ -18,3 +18,30 @@ switch (month) {
         console.log("default value marched.");
         break;
 }
+
+
+//matching using string 
+
+const month = "feb"
+
+switch (month) {
+    case "jan":
+        console.log("January");
+        
+        break;
+    case "feb":
+        console.log("february");
+        
+        break;
+    case "march":
+        console.log("march");
+        
+        break;
+
+    default:
+        console.log("default value marched.");
+        break;
+}
+
+
+
